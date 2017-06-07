@@ -2,15 +2,15 @@
  
 int main()
 {
-  int c, n, fact = 1;
+  int c, a, fact = 1;
  
   printf("Enter a number to calculate it's factorial\n");
-  scanf("%d", &n);
+  scanf("%d", &a);
  
-  for (c = 1; c <= n; c++)
+  for (c = 1; c <= a; c++)
     fact = fact * c;
  
-  printf("Factorial of %d = %d\n", n, fact);
+  printf("Factorial of %d = %d\n", a, fact);
  
   return 0;
 }
